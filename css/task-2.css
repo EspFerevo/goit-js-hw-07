@@ -1,0 +1,22 @@
+ul,
+ol {
+  margin: 100px 150px;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+
+img {
+  height: 300px;
+
+  border: 1px solid #000;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
